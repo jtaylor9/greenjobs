@@ -31,7 +31,39 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <p>Set of functions that manipulates Green Job data using underscore. More Information can be found here: <a href="http://philipmjohnson.github.io/ics314f15/morea/underscore/inclass-greenjobs.html">http://philipmjohnson.github.io/ics314f15/morea/underscore/inclass-greenjobs.html</a></p>
+        <h1>
+<a id="overview" class="anchor" href="#overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview:</h1>
+
+<p>Provide functions computing analytics for <a href="https://data.hawaii.gov/Employment/Hawaii-Directory-Of-Green-Employers/mq86-5ta6">Hawaii Directory of Green Employers</a></p>
+
+<h1>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation:</h1>
+
+<p>Provide the following scripts</p>
+
+<pre><code>&lt;script src="//philipmjohnson.github.io/ics314f15/morea/underscore/underscore-min.js"&gt;&lt;/script&gt;
+&lt;script src="//philipmjohnson.github.io/ics314f15/morea/underscore/greenjobs.js"&gt;&lt;/script&gt;
+&lt;script src="greenjobs.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<h1>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h1>
+
+<p>Examples of function calls</p>
+
+<pre><code>&lt;script&gt;
+  console.log("Industry List", listIndustries(greenjobs));
+  console.log("Green Jobs", countyGreenJobs(greenjobs));
+  console.log("PV Jobs", jobswithKeyword(greenjobs, "PV"));
+  console.log("Industry Jobs", industryJobs(greenjobs));
+  console.log("Industry Jobs Max", maxIndustryJobs(greenjobs));
+&lt;/script&gt;
+</code></pre>
+
+<h1>
+<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits</h1>
+
+<p>Credit to <a href="http://underscorejs.org/">Underscore</a> library. </p>
       </section>
     </div>
 
